@@ -9,21 +9,19 @@
 </head>
 
 <body>
-    <!-- <?php include "components/header.php"; ?> -->
-    <span class="dynamicPageNavigationSpan" style="font-size: x-small;"><b>Dynamic</b> > <b>page</b> > <b>navigation</b></span>
+    <?php include "components/header.php"; ?>
+
     <h1>La sicurezza dei siti web</h1>
 
     <div class="body">
         <article>
-
             <p>
                 La sicurezza dei siti web è l'insieme di tecniche, strumenti e pratiche utilizzate per proteggere i siti
                 internet da attacchi informatici, accessi non autorizzati e furti di dati. Oggi è un elemento
                 fondamentale per garantire la protezione degli utenti e delle loro informazioni online.
             </p>
 
-            <img class="preImg"
-                src="https://www.kaspersky.it/content/it-it/images/repository/isc/2021/web-security-1.jpg">
+            <img class="preImg" src="https://www.kaspersky.it/content/it-it/images/repository/isc/2021/web-security-1.jpg">
 
             <h2>Proteggere il web significa proteggere i dati degli utenti</h2>
 
@@ -55,9 +53,7 @@
                     </svg>
                     <h3 class="proTipsTitle">Consigli utili per la sicurezza dei siti web</h3>
                 </div>
-
                 <div class="container proTips">
-
                     <div class="card heading">
                         <svg class="ok" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -65,7 +61,6 @@
                         </svg>
                         <p>Utilizzare sempre il protocollo HTTPS per criptare la comunicazione tra browser e server.</p>
                     </div>
-
                     <div class="card heading">
                         <svg class="ok" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -73,7 +68,6 @@
                         </svg>
                         <p>Aggiornare regolarmente CMS, plugin e software per evitare vulnerabilità.</p>
                     </div>
-
                     <div class="card heading">
                         <svg class="ok" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -81,7 +75,6 @@
                         </svg>
                         <p>Utilizzare password complesse e attivare l'autenticazione a due fattori.</p>
                     </div>
-
                     <div class="card heading">
                         <svg class="ok" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -89,14 +82,12 @@
                         </svg>
                         <p>Eseguire backup regolari del sito per poter recuperare i dati in caso di attacco.</p>
                     </div>
-
                 </div>
             </div>
 
             <br>
 
             <div class="containerMaster mustNots">
-
                 <div class="heading">
                     <svg class="notOk" xmlns="http://www.w3.org/2000/svg" height="24px"
                         viewBox="0 -960 960 960" width="24px">
@@ -105,9 +96,7 @@
                     </svg>
                     <h3 class="mustNotsTitle">Cose da non fare nella sicurezza dei siti web</h3>
                 </div>
-
                 <div class="container mustNots">
-
                     <div class="card heading">
                         <svg class="notOk" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -115,7 +104,6 @@
                         </svg>
                         <p>Non utilizzare password deboli o facilmente indovinabili.</p>
                     </div>
-
                     <div class="card heading">
                         <svg class="notOk" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -123,7 +111,6 @@
                         </svg>
                         <p>Non lasciare plugin o software del sito non aggiornati.</p>
                     </div>
-
                     <div class="card heading">
                         <svg class="notOk" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -131,7 +118,6 @@
                         </svg>
                         <p>Non salvare dati sensibili senza sistemi di protezione e crittografia.</p>
                     </div>
-
                     <div class="card heading">
                         <svg class="notOk" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px">
@@ -139,12 +125,10 @@
                         </svg>
                         <p>Non ignorare aggiornamenti di sicurezza o segnali di attività sospette.</p>
                     </div>
-
                 </div>
             </div>
 
             <h3 class="customBlue">"La sicurezza non è un prodotto, ma un processo."</h3>
-
             <div class="heading">
                 <svg class="customBlue" xmlns="http://www.w3.org/2000/svg" height="24px"
                     viewBox="0 -960 960 960" width="24px">
@@ -153,51 +137,52 @@
                 </svg>
                 <p><b>Bruce Schneier</b></p>
             </div>
-
         </article>
 
         <nav>
-
             <div class="card args">
                 <div class="heading">
+                    <svg class="customBlue" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                        <path d="m300-300 280-80 80-280-280 80-80 280Zm180-120q-25 0-42.5-17.5T420-480q0-25 17.5-42.5T480-540q25 0 42.5 17.5T540-480q0 25-17.5 42.5T480-420Zm0 340q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Zm0-320Z" />
+                    </svg>
                     <h4>Argomenti Correlati</h4>
                 </div>
-
                 <ul class="listOfArgs">
-                    <li class="card"><a href="">SQL Injection</a></li>
+                    <li class="card">
+                        <a href="gruppo1.php">Gruppo 1</a>
+                    </li>
                     <br>
-                    <li class="card"><a href="">Attacchi DDoS</a></li>
+                    <li class="card">
+                        <a href="gruppo2.php">Gruppo 2</a>
+                    </li>
                     <br>
-                    <li class="card"><a href="">Cross Site Scripting (XSS)</a></li>
+                    <li class="card">
+                        <a href="gruppo3.php">Gruppo 3</a>
+                    </li>
                     <br>
-                    <li class="card"><a href="">HTTPS e crittografia</a></li>
+                    <li class="card">
+                        <a href="gruppo4.php">Gruppo 4</a>
+                    </li>
                     <br>
-                    <li class="card"><a href="">Autenticazione e password</a></li>
+                    <li class="card">
+                        <a href="gruppo5.php">Gruppo 5</a>
+                    </li>
                 </ul>
             </div>
-
             <br>
-
             <div class="card created">
                 <div class="heading">
                     <h4>Articolo creato da:</h4>
                 </div>
-
                 <ul>
                     <li>Baroni Lorenzo</li>
                     <li>Dimiccoli Luca</li>
                     <li>Minuti Mattia</li>
                     <li>Bitozzi Daniele</li>
                 </ul>
-
             </div>
-
         </nav>
-
     </div>
-
-    <!-- <?php include "components/footer.php" ?> -->
-
 </body>
 
 </html>

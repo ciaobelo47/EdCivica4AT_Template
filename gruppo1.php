@@ -10,7 +10,7 @@
 
 <body>
     <?php include "components/header.php"; ?>
-    <h1>Sicurezza e Privacy: Password Efficaci</h1>
+    <h1>Sicurezza, Privacy e Password Efficaci</h1>
     <div class="body">
         <article>
             <p>Ogni giorno usiamo decine di account online, ma spesso non ci fermiamo a pensare a quanto siano davvero al sicuro. La password è la prima cosa che protegge i nostri dati, eppure moltissime persone continuano ad usarne di debolissime o, peggio sempre le stesse per tutto.</p>

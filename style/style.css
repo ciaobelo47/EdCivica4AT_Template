@@ -98,6 +98,14 @@ h1 {
     background-color: lightblue;
 }
 
+.card-args {
+    padding: 2%;
+    border-radius: var(--border-radius);
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: lightblue;
+}
+
 .card.created {
     background-color: var(--custom-blue);
     color: aliceblue;
@@ -156,4 +164,13 @@ h1 {
 .navbar a {
     margin: 0 15px;
     font-weight: 500;
+}
+
+.args-img {
+    width: 128px;
+    border-radius: var(--border-radius);
+}
+
+.args-text {
+    text-align: center;
 }
